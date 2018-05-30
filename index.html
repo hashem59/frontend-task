@@ -1,0 +1,246 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<!--Let browser know website is optimized for mobile-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>Front-End Task</title>
+	<link href="css/styles.css" rel="stylesheet" >
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+	<div class="container">
+<!--	Header Part -->
+		<header class="header">
+			<a href="javascript:void(0)"><h1>brand</h1></a>
+			<div class="menue-icon">
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+		</header>
+<!--		main pig image part-->
+		<div class="hero">
+			<a href="javascript:void(0)"><img class="hero-img" src="images/banner.PNG" alt="banner_image"></a>
+		</div>
+<!--		get notified orange background part-->
+		<div class="get-notified">
+			<h3>new lots posted daily. <a href="javascript:void(0)">click here</a> to get notified&excl;</h3>
+		</div>
+<!--		Filter button-->
+	 <div class="filter">
+		<button class="filter-btn">filters</button>
+	 </div>
+
+<!--        Filter PopUp-->
+	<div class="popup-container">
+
+		<div class="filter-popup">
+			<div class="close">
+				<img src="images/close-icon.PNG" class="close-img" alt="close">
+			</div>
+			<div class="filter-options">
+				<div class="filter-option">
+					<h4 class="filter-header">category</h4>
+					<ul class="filter-checkboxes">
+						<li>
+							<input type="checkbox" id="consumer-electro" name="category" value="consumer-electronics">
+					    <label for="consumer-electro">consumer electronics</label>
+						</li>
+						<li>
+							<input type="checkbox" id="home-living" name="category" value="home-living">
+					    <label for="home-living">home &amp; living</label>
+						</li>
+						<li>
+							<input type="checkbox" id="children-baby" name="category" value="children-baby">
+					    <label for="children-baby">children &amp; baby</label>
+						</li>
+						<li>
+							<input type="checkbox" id="household" name="category" value="household">
+					    <label for="household">household</label>
+						</li>
+
+					</ul>
+				</div>
+
+				<div class="filter-option">
+					<h4 class="filter-header">condition</h4>
+					<ul class="filter-checkboxes">
+						<li>
+							<input type="checkbox" id="unchecked" name="price" value="unchecked">
+					    <label for="unchecked">unchecked</label>
+						</li>
+						<li>
+							<input type="checkbox" id="like-new" name="price" value="like-new">
+					    <label for="like-new">like new</label>
+						</li>
+						<li>
+							<input type="checkbox" id="used-with-flaws" name="price" value="used-with-flaws">
+					    <label for="used-with-flaws">used with flaws</label>
+						</li>
+						<li>
+							<input type="checkbox" id="defect" name="price" value="defect">
+					    <label for="defect">defect</label>
+						</li>
+						<li>
+							<input type="checkbox" id="mixed" name="price" value="mixed">
+					    <label for="mixed">mixed</label>
+						</li>
+					</ul>
+				</div>
+
+				<div class="filter-option">
+					<h4 class="filter-header">price</h4>
+					<ul class="filter-checkboxes">
+						<li>
+							<input type="checkbox" id="frst-price-level" name="price" value="frst-price-level">
+					    <label for="0-99">0 &euro; &hyphen; 99 &euro;</label>
+						</li>
+						<li>
+							<input type="checkbox" id="second-price-level" name="price" value="second-price-level">
+					    <label for="second-price-level">100 &euro; &hyphen; 199 &euro;</label>
+						</li>
+						<li>
+							<input type="checkbox" id="thrd-price-level" name="price" value="thrd-price-level">
+					    <label for="thrd-price-level">200 &euro; &hyphen; 299 &euro;</label>
+						</li>
+						<li>
+							<input type="checkbox" id="fortht-price-level" name="price" value="fortht-price-level">
+					    <label for="fortht-price-level">300 &euro; &hyphen; 399 &euro;</label>
+						</li>
+						<li>
+							<input type="checkbox" id="greater-four-hndrd" name="price" value="greater-four-hndrd">
+					    <label for="greater-four-hndrd">&gt; 400 &euro;</label>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+
+			<div class="apply-filter">
+				<input class="apply-filter-btn" type="text" name="" value="Apply">
+			</div>
+			<div class="cancel-filter">
+				<input class="cancel-filter-btn" type="text" name="" value="Cancel">
+			</div>
+	  </div>
+
+	</div>
+<!--		products category-->
+		<section class="products">
+
+			<div class="product-item">
+				<img class="product-image" src="images/product_1.PNG" alt="product_image">
+				<h2 class="product-title">Patagonia Netgear Samsung Bulk Bla Viel Spielzeug Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+				<div class="product-info">
+					<h5 class="product-price">
+						<span class="discount-price">399 &euro;</span>
+						<span class="original-price">289 &euro;</span>
+					</h5>
+					<div class="product-status">
+						<img class="product-status-icon" src="images/clipboards-unchecked.PNG" alt="img">
+						<span class="product-staus-descr">unchecked</span>
+					</div>
+					<div class="product-instock">
+						<span class="product-units-numb">8</span>
+						<span class="product-units">units</span>
+					</div>
+				</div>
+				<div class="view-more">
+					<input class="view-details-btn" type="text" name="" value="View Details">
+				</div>
+			</div>
+
+			<div class="product-item">
+				<img class="product-image" src="images/product_1.PNG" alt="product_image">
+				<h2 class="product-title">Patagonia Netgear Samsung Bulk Bla Viel Spielzeug Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+				<div class="product-info">
+					<h5 class="product-price">
+						<span class="discount-price">399 &euro;</span>
+						<span class="original-price">289 &euro;</span>
+					</h5>
+					<div class="product-status">
+						<img class="product-status-icon" src="images/used-icon.PNG" alt="img">
+						<span class="product-staus-descr">used</span>
+					</div>
+					<div class="product-instock">
+						<span class="product-units-numb">8</span>
+						<span class="product-units">units</span>
+					</div>
+				</div>
+				<div class="view-more">
+					<input class="view-details-btn" type="text" name="" value="View Details">
+				</div>
+			</div>
+
+			<div class="product-item">
+				<img class="product-image" src="images/product_1.PNG" alt="product_image">
+				<h2 class="product-title">Patagonia Netgear Samsung Bulk Bla Viel Spielzeug Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+				<div class="product-info">
+					<h5 class="product-price">
+						<span class="discount-price">399 &euro;</span>
+						<span class="original-price">289 &euro;</span>
+					</h5>
+					<div class="product-status">
+						<img class="product-status-icon" src="images/like-new-icon.PNG" alt="img">
+						<span class="product-staus-descr">like new</span>
+					</div>
+					<div class="product-instock">
+						<span class="product-units-numb">8</span>
+						<span class="product-units">units</span>
+					</div>
+				</div>
+				<div class="view-more">
+					<input class="view-details-btn" type="text" name="" value="View Details">
+				</div>
+			</div>
+
+			<div class="navigate-pages">
+				<div class="navigation-links">
+					<a class="nav-link-active" href="javascript:void(0)">1</a>
+					<a href="javascript:void(0)">2</a>
+					<a href="javascript:void(0)">3</a>
+					<a href="javascript:void(0)">4</a>
+					<a href="javascript:void(0)">&gt; next</a>
+				</div>
+			</div>
+		</section>
+
+		<footer>
+
+			<a href="javascript:void(0)"><h1>brand</h1></a>
+			<div class="footer-groups">
+				<div class="other-links">
+					<h5>company</h5>
+					<ul>
+						<li><a href="javascript:void(0)">about us</a></li>
+						<li><a href="javascript:void(0)">sing up &sol; log in</a></li>
+						<li><a href="javascript:void(0)">faq</a></li>
+					</ul>
+				</div>
+				<div class="information">
+					<h5>information</h5>
+					<ul>
+						<li><a href="javascript:void(0)">inventory notification</a></li>
+						<li><a href="javascript:void(0)">terms &amp; conditions</a></li>
+						<li><a href="javascript:void(0)">imprint</a></li>
+					</ul>
+				</div>
+				<div class="contacts">
+					<h5>contacts</h5>
+					<ul>
+						<li><a href="mailto:b2b@prand.com">
+							b2b&#64;brand.com</a></li>
+						<li><p>skype&colon; b2b_brand</p></li>
+					</ul>
+				</div>
+			</div>
+		</footer
+
+	</div>
+	<script src="js/scripts.js" ></script>
+</body>
+</html>
